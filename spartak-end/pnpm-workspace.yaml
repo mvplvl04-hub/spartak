@@ -1,7 +1,7 @@
-onlyBuiltDependencies:
-  - msw
-  - sharp
-  - lightningcss
+allowBuilds:
+  msw: true
+  sharp: true
+  lightningcss: true
 
 overrides:
   hono: 4.12.25
