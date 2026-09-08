@@ -35,7 +35,9 @@
       "hono": "4.12.25"
     },
     "onlyBuiltDependencies": [
-      "msw"
+      "msw",
+      "sharp",
+      "lightningcss"
     ]
   }
 }
