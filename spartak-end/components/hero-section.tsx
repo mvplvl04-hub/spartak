@@ -32,14 +32,12 @@ export function HeroSection() {
             as="div"
             className="font-display text-7xl font-bold uppercase leading-[0.9] tracking-tight text-milk text-balance sm:text-8xl lg:text-9xl"
           >
-            <h1 className="inline">Спартак</h1>
-          </Reveal>
-
-          <Reveal
-            delay={110}
-            className="mt-5 font-display text-2xl font-medium uppercase tracking-wide text-milk/90 sm:text-3xl"
-          >
-            Пункт приема металлолома
+            <h1>
+              Спартак
+              <span className="mt-5 block font-display text-2xl font-medium uppercase leading-tight tracking-wide text-milk/90 sm:text-3xl">
+                Приём металлолома в Димитровграде
+              </span>
+            </h1>
           </Reveal>
 
           <Reveal delay={160} className="mt-6 inline-flex items-center gap-3 border-l-2 border-gold pl-4">
@@ -50,9 +48,11 @@ export function HeroSection() {
           </Reveal>
 
           <Reveal delay={210} className="mt-6 max-w-xl leading-relaxed text-muted-foreground">
-            Принимаем лом черных и цветных металлов по высоким ценам.
-            Автовесы, моментальных расчет и вывоз лома собственным
-            транспортом. Демонтаж сложных объектов.
+            Хотите сдать лом или металл в Димитровграде — приезжайте на
+            ул. Промышленная, 35. Приём и скупка лома чёрных и цветных
+            металлов, чермета и цветмета, по высоким ценам. Автовесы,
+            моментальный расчёт, вывоз лома собственным транспортом
+            и демонтаж сложных объектов.
           </Reveal>
 
           <Reveal delay={260} className="mt-10 flex flex-wrap items-center gap-4">

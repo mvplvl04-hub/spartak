@@ -21,7 +21,7 @@ export function ContactsSection() {
             Где мы
           </p>
           <h2 className="mt-2 font-display text-4xl font-bold uppercase tracking-tight text-milk sm:text-5xl">
-            Контакты
+            Контакты в Димитровграде
           </h2>
         </Reveal>
 
